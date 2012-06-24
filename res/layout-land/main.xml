@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:orientation="vertical"
+    android:orientation="horizontal"
     tools:context=".SquareViewSampleActivity" >
 
     <org.zakky.square.SquareView
@@ -12,8 +12,8 @@
         android:background="#ff00ff00" />
 
     <ImageView
-        android:layout_width="fill_parent"
-        android:layout_height="0dp"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
         android:layout_weight="1"
         android:contentDescription="@string/desc"
         android:scaleType="fitXY"
